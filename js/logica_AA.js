@@ -216,9 +216,10 @@ function algoritmo(){
           camino.push(temporal);
         }
 
+        //Math.sqrt(openSet[ganador].f)
 
         console.log('camino encontrado');
-        console.log('pasos del punto A al punto B es de: '+openSet[ganador].f);
+        console.log('pasos del punto A al punto B es de: '+Math.sqrt(openSet[ganador].f,2));
         terminado = true;
       }
 
